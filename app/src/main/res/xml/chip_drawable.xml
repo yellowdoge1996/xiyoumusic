@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chip xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.Chip.Action"
+    app:chipBackgroundColor="#1A000000"
+    app:closeIconVisible="true"
+    app:chipStrokeColor="#2196F3"
+    app:chipStrokeWidth="2dp"
+    app:rippleColor="#CC2196F3"
+    app:textStartPadding="10dp"
+    app:closeIconStartPadding="10dp"
+    android:text="temp"
+    android:textColor="#CCE91E63"/>

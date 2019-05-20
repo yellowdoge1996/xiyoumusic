@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph4"
+    app:startDestination="@id/shoucangFragment2">
+
+    <fragment
+        android:id="@+id/shoucangFragment2"
+        android:name="com.xiyoumusic.app.fragment.ShoucangFragment"
+        android:label="fragment_shoucang"
+        tools:layout="@layout/fragment_shoucang" />
+</navigation>

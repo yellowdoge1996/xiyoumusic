@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">西柚音乐</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">点击头像登录</string>
+    <string name="nav_header_subtitle">个性签名</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_uploadSong">上传歌曲</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_xh">学号</string>
+    <string name="prompt_mm">密码</string>
+    <string name="error_invalid_email">学号应为12位</string>
+    <string name="error_invalid_password">密码应大于6位小于16位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="delete_music">删除%s？</string>
+    <string name="download_success">%s下载完成</string>
+    <string name="play_time_start">00:00</string>
+    <string name="mode_loop">列表循环</string>
+    <string name="mode_shuffle">随机播放</string>
+    <string name="mode_one">单曲循环</string>
+    <string name="now_play">正在播放：%s</string>
+    <string name="now_download">正在下载：%s</string>
+    <string name="student_number">学号</string>
+    <string name="password">密码</string>
+    <string name="over_count">超出最大长度</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>

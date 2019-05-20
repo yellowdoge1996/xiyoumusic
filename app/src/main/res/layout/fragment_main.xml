@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.MainFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/local_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_file_download_black_24dp" />
+
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_star_border_black_24dp" />
+
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/my_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_file_upload_black_24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/my_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_favorite_border_black_24dp"/>
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/dong_tai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_bubble_chart_black_24dp" />
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_chat_bubble_outline_black_24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/my_fan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_person_add_black_24dp"/>
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/music_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_insert_comment_black_24dp" />
+        <ImageButton
+            style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+            android:layout_weight="1"
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_poll_black_24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="下一个"/>
+
+</LinearLayout>

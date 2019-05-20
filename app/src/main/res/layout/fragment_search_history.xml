@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".fragment.SearchHistoryFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.chip.ChipGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chipGroup_search_history"
+        app:chipSpacing="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除搜索记录"
+        android:id="@+id/btn_clear_history"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+</LinearLayout>

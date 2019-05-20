@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.xiyoumusic.app.fragment.MainFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_twoFragment"
+            app:destination="@+id/twoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_localMusicFragment"
+            app:destination="@id/localMusicFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_shoucangFragment"
+            app:destination="@id/shoucangFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myMusicFragment"
+            app:destination="@id/myMusicFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_myGuanzhuFragment"
+            app:destination="@id/myGuanzhuFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_dongtaiFragment"
+            app:destination="@id/dongtaiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.xiyoumusic.app.fragment.twoFragment"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/localMusicFragment"
+        android:name="com.xiyoumusic.app.fragment.LocalMusicFragment"
+        android:label="fragment_local_music"
+        tools:layout="@layout/fragment_local_music" />
+    <fragment
+        android:id="@+id/shoucangFragment"
+        android:name="com.xiyoumusic.app.fragment.ShoucangFragment"
+        android:label="fragment_shoucang"
+        tools:layout="@layout/fragment_shoucang" />
+    <fragment
+        android:id="@+id/myMusicFragment"
+        android:name="com.xiyoumusic.app.fragment.MyMusicFragment"
+        android:label="fragment_my_music"
+        tools:layout="@layout/fragment_my_music" />
+    <fragment
+        android:id="@+id/myGuanzhuFragment"
+        android:name="com.xiyoumusic.app.fragment.MyGuanzhuFragment"
+        android:label="fragment_my_guanzhu"
+        tools:layout="@layout/fragment_my_guanzhu" />
+    <fragment
+        android:id="@+id/dongtaiFragment"
+        android:name="com.xiyoumusic.app.fragment.DongtaiFragment"
+        android:label="fragment_dongtai"
+        tools:layout="@layout/fragment_dongtai" />
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_upload"
+        android:orderInCategory="100"
+        android:title="@string/action_uploadSong"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_note_add_white_18dp"/>
+    <item
+        android:id="@+id/action_download"
+        android:orderInCategory="200"
+        android:title="我的下载"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_file_download_white_18dp" />
+</menu>
